@@ -1,5 +1,5 @@
 FROM node:carbon
-WORKDIR /usr/src/app
+WORKDIR /Users/jacquirennie/app/src
 COPY package*.json ./
 RUN npm install
 COPY . .
